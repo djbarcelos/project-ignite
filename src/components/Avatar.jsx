@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 Avatar.propTypes = {
     src: PropTypes.string.isRequired,
-    hasBorder: PropTypes.bool.isRequired
+    hasBorder: PropTypes.bool
 };
 
 export function Avatar({ src, hasBorder = true }) {
